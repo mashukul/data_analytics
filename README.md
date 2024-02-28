@@ -35,7 +35,7 @@ Can we develop  a model to automatically extract sentiment (positive or negative
 
 ## Twitter sentiment Classification Flowchart
 
-![image](https://github.com/mashukul/data_analytics/assets/71208684/872ee584-7638-42c3-a9ee-aa58849ba6a9)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig1.jpg)
 
 
 # Data Description
@@ -56,14 +56,14 @@ Can we develop  a model to automatically extract sentiment (positive or negative
 
 ## Dataset Post-Processing
 
-![image](https://github.com/mashukul/data_analytics/assets/71208684/93b08f06-a6d0-40fb-9798-37838fa0bd61)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig2.jpg)
 
 The training data is post-processed with the following filters: 
 - Emoticons listed in Table are stripped off 
 - Any tweet containing both positive and negative emoticons are removed 
 - Retweets are removed
 ## Dataset Sample
-![image](https://github.com/mashukul/data_analytics/assets/71208684/be0bd95d-0dc8-4233-9dd8-b337a3fc775b)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig3.jpg)
 
 ## Text Data Preprocessing
 1.	Problems like sentiment analysis are much more sensitive to stop words removal  than document classification. So, none of the stop words should be removed
@@ -77,41 +77,42 @@ The training data is post-processed with the following filters:
 
 ## Exploring, Visualizing and Feature engineering of Data
 
-![image](https://github.com/mashukul/data_analytics/assets/71208684/14bbb495-37bb-4a47-8ff4-454339d11bcd)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig4.jpg)
 
 
 ## Exploring, Visualizing and Feature engineering of Data
 (Positive wordcloud)
-![image](https://github.com/mashukul/data_analytics/assets/71208684/fc374304-a89e-4179-a67b-c28e1286b740)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig5.jpg)
 
 (Negative wordcloud)
-![image](https://github.com/mashukul/data_analytics/assets/71208684/529433fc-0c8e-45af-b1d6-f9d89f414a37)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig6.jpg)
 
 
 ## GloVe: Global Vectors for Word Representation
 GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.
 For example, the analogy “king is to queen as man is to woman” should be encoded in the vector space by the vector equation 
 king − queen = man − woman. 
-![image](https://github.com/mashukul/data_analytics/assets/71208684/75972499-0314-4273-a46b-563403bdc4bf)
+
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig7.jpg)
 
 
 ##Accuracy of different Models
-![image](https://github.com/mashukul/data_analytics/assets/71208684/19a94f01-c979-4a4e-bd48-790229c212b0)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig8.jpg)
 
 
 ## Machine Learning model algorithms and accuracy
 (Bidirectional LSTM)
 
-![image](https://github.com/mashukul/data_analytics/assets/71208684/3630b625-256c-4fd3-9f9f-27ea15811f68)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig9.jpg)
 
-![image](https://github.com/mashukul/data_analytics/assets/71208684/6bddf01a-b142-441e-8064-71b08d04596b)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig10.jpg)
 
 ## Deployment
 Please write a review to score your sentiment for next 72 hours 
 https://45862.gradio.app
-![image](https://github.com/mashukul/data_analytics/assets/71208684/bdb422ff-e123-45c9-b8fe-783fe7539224)
-![image](https://github.com/mashukul/data_analytics/assets/71208684/7b3cc3ad-7c48-4739-b9be-557af3132a80)
-![image](https://github.com/mashukul/data_analytics/assets/71208684/17b3a08d-c5b1-44ce-82b5-2526b694abd7)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig11.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig12.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig13.jpg)
 
 
 
@@ -138,16 +139,18 @@ https://45862.gradio.app
 ## Appendix
 ### Reasons for not removing stop words: ‘Not’, ‘but’ are present in nltk stop words
 
-![image](https://github.com/mashukul/data_analytics/assets/71208684/547c748d-2e7d-4767-9a98-1e51e09a227d)
-![image](https://github.com/mashukul/data_analytics/assets/71208684/e3aaf8e3-cf91-4115-a40f-a3d04460cbef)
-![image](https://github.com/mashukul/data_analytics/assets/71208684/ddd69732-3442-4807-9c4b-7bef012ef11a)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig14.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig15.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig16.jpg)
+
+
 
 
 
 
 ### Reasons for not removing stop words: ‘only’ is present in nltk stop words
-![image](https://github.com/mashukul/data_analytics/assets/71208684/5754bcaa-3dac-4dad-b161-1ea4f721cff3)
-![image](https://github.com/mashukul/data_analytics/assets/71208684/4bc1235a-465e-43c2-90d9-7a25d794c1ce)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig17.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig18.jpg)
 
 
 
