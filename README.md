@@ -1,23 +1,27 @@
-# Project Context
-Twitter is a popular microblogging service where users create status messages (called “tweets”).
-These tweets sometimes express opinions about different topics. 
-Twitter messages have many unique attributes, which differentiates twitter text classification from other classifications
-Easy to collect millions of data
-The frequency of misspelling and slang much higher
-Has a Wide range of Topics
-We need a method to automatically extract sentiment (positive or negative) from a tweet. 
-Sentiment analysis without manual intervention is very useful because it allows feedback to be aggregated
+# Project Name: Twitter Sentiment Analysis
+
+## Project Context
+1.	Twitter is a popular microblogging service where users create status messages (called “tweets”).
+2.	These tweets sometimes express opinions about different topics. 
+3.	Twitter messages have many unique attributes, which differentiates twitter text classification from other classifications
+    -	Easy to collect millions of data
+    -	The frequency of misspelling and slang much higher
+    -	Has a Wide range of Topics
+4.	We need a method to automatically extract sentiment (positive or negative) from a tweet. 
+5.	Sentiment analysis without manual intervention is very useful because it allows feedback to be aggregated
 
 
-# Business perspective
 
-Consumers can analyse these sentiments to research products or services before making a purchase. 
-Marketers can use this to research public opinion of their company and products, or to analyse customer satisfaction. Organizations can also use this to gather critical feedback about problems in newly released products.
+## Business perspective
 
-# Business Question?
+1. Consumers can analyse these sentiments to research products or services before making a purchase. 
+2. Marketers can use this to research public opinion of their company and products, or to analyse customer satisfaction.
+3. Organizations can also use this to gather critical feedback about problems in newly released products.
+
+## Business Question?
 Can we develop  a model to automatically extract sentiment (positive or negative) from a tweet?
 
-# Models used for Sentiment Analysis
+## Models used for Sentiment Analysis
 
 ### Conventional modelling techniques:
 1. Logistic Regression Classifier
@@ -36,9 +40,10 @@ Can we develop  a model to automatically extract sentiment (positive or negative
 ## Twitter sentiment Classification Flowchart
 
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig1.jpg)
+Fig1:Twitter sentiment Classification Flowchart
 
 
-# Data Description
+## Data Description
 
 1. Data obtained from Kaggle
 2. The sentiment140 dataset contains 1,600,000 tweets extracted using the twitter api
@@ -81,10 +86,12 @@ The training data is post-processed with the following filters:
 
 
 ## Exploring, Visualizing and Feature engineering of Data
-(Positive wordcloud)
+### Positive wordcloud
+
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig5.jpg)
 
-(Negative wordcloud)
+### Negative wordcloud
+
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig6.jpg)
 
 
@@ -96,15 +103,15 @@ king − queen = man − woman.
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig7.jpg)
 
 
-##Accuracy of different Models
+## Accuracy of different Models
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig8.jpg)
 
 
 ## Machine Learning model algorithms and accuracy
-(Bidirectional LSTM)
-
+### Results for Bidirectional LSTM
+### Confusion Matrix:
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig9.jpg)
-
+### ROC Curve:
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig10.jpg)
 
 ## Deployment
