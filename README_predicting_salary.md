@@ -29,7 +29,7 @@
 4.	number of columns: 15
 
 ## Dataset Sample
-https://github.com/mashukul/data_analytics/blob/main/assets/salary2.jpg
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary2.jpg)
 
 
 ## Cleaning Data
@@ -37,34 +37,31 @@ https://github.com/mashukul/data_analytics/blob/main/assets/salary2.jpg
 2.	The data has only few outliers but no missing values
 3.	Most of the outliers have been eliminated 
 
-https://github.com/mashukul/data_analytics/blob/main/assets/salary3.jpg
-
 
 ## Exploring, Visualizing and Feature engineering of Data
 
-https://github.com/mashukul/data_analytics/blob/main/assets/salary4.jpg
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary3.jpg)
 
 
 ## Exploring, Visualizing and Feature engineering of Data
-https://github.com/mashukul/data_analytics/blob/main/assets/salary5.jpg
-
-https://github.com/mashukul/data_analytics/blob/main/assets/salary6.jpg
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary4.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary5.jpg)
 
 #### Encoding of Education based on Target:
-https://github.com/mashukul/data_analytics/blob/main/assets/salary7.jpg
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary6.jpg)
 
-https://github.com/mashukul/data_analytics/blob/main/assets/salary8.jpg
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary7.jpg)
 #### kbest feature selection:
-https://github.com/mashukul/data_analytics/blob/main/assets/salary9.jpg
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary8.jpg)
 
 
 ## Machine Learning model algorithms and accuracy
-https://github.com/mashukul/data_analytics/blob/main/assets/salary10.jpg
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary9.jpg)
 
 #### Confusion Matrix
-https://github.com/mashukul/data_analytics/blob/main/assets/salary11.jpg
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary10.jpg)
 #### ROC Curve
-![image](https://github.com/mashukul/data_analytics/assets/71208684/67dc28ba-200e-4fe0-9739-dbf1cca9bc00)
+![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary11.jpg)
 
 ## Summary
 1.	Dataset obtained from the census income data
