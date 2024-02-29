@@ -1,82 +1,41 @@
-# Project Name: Twitter Sentiment Analysis
-
-## Project Context
-1.	Twitter is a popular microblogging service where users create status messages (called “tweets”).
-2.	These tweets sometimes express opinions about different topics. 
-3.	Twitter messages have many unique attributes, which differentiates twitter text classification from other classifications
-    -	Easy to collect millions of data
-    -	The frequency of misspelling and slang much higher
-    -	Has a Wide range of Topics
-4.	We need a method to automatically extract sentiment (positive or negative) from a tweet. 
-5.	Sentiment analysis without manual intervention is very useful because it allows feedback to be aggregated
-
-
+# Project Name: Predicting Salary
 
 ## Business perspective
+1.	Based on features predict if a person’s salary is over $50k or not
+2.	This model can be used by anyone in the job market – both employees and employers.
+3.	Many companies which need this sensitive salary information to promote their product can also use the model.
 
-1. Consumers can analyse these sentiments to research products or services before making a purchase. 
-2. Marketers can use this to research public opinion of their company and products, or to analyse customer satisfaction.
-3. Organizations can also use this to gather critical feedback about problems in newly released products.
+## Models used for Predicting Salary
+1.	Logistic Regression Classifier
+2.	Kneighbors Classifier
+3.	Gaussian Naïve Bayes Classifier
+4.	Support Vector Machine Classifier
+5.	Random Forest Classifier
+6.	Stacking Classifier
 
-## Business Question?
-Can we develop  a model to automatically extract sentiment (positive or negative) from a tweet?
 
-## Models used for Sentiment Analysis
+## Pipeline
+![image](https://github.com/mashukul/data_analytics/assets/71208684/18a6f194-2082-4d49-899c-66d6880eebca)
 
-### Conventional modelling techniques:
-1. Logistic Regression Classifier
-2. Support Vector Machine Classifier
-    #### Approaches:
-    1. Count Vectors
-    2. Word Level TF-IDF
-    3. N-Gram Vectors
-    4. Char Level Vectors
-
-### With GloVe Pretrained Word vectors:
-1. Convolutional neural network
-2. Bidirectional LSTM
-
-## Twitter sentiment Classification Flowchart
-
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig1.jpg)
-Fig1:Twitter sentiment Classification Flowchart
 
 
 ## Data Description
 
-1. Data obtained from Kaggle
-2. The sentiment140 dataset contains 1,600,000 tweets extracted using the twitter api
-3. The tweets have been annotated (0 = negative, 4 = positive) and they can be used to detect sentiment
-4. While reviews represent summarized thoughts of authors, these tweets are more casual and limited to 140 characters of text
-5. These tweets are not as thoughtfully composed as conventional reviews
-6. These tweet messages are mostly based on the following topics
-- Company
-- Event
-- Location
--  Misc.
-- Movie
-- Person
-- Product
+1.	Predict whether income exceeds $50K/yr based on census data. Also known as "Census Income" dataset
+2.	Extraction was done by Barry Becker from the 1994 Census database. 
+3.	Data Size: number of rows: 32561 
+4.	number of columns: 15
 
-## Dataset Post-Processing
-
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig2.jpg)
-
-The training data is post-processed with the following filters: 
-- Emoticons listed in Table are stripped off 
-- Any tweet containing both positive and negative emoticons are removed 
-- Retweets are removed
 ## Dataset Sample
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig3.jpg)
+![image](https://github.com/mashukul/data_analytics/assets/71208684/b7c5fc8e-f38f-4986-9c11-1b8f5dc3d927)
 
-## Text Data Preprocessing
-1.	Problems like sentiment analysis are much more sensitive to stop words removal  than document classification. So, none of the stop words should be removed
-2.	No need for stemming and lemmatization as all forms of words are covered in GloVe 
-3.	URL and USER pattern were removed with URL and USER
-4.	Emojis were converted to text
-5.	Digits and other special characters were removed
-6.	Repeating characters were fixed using regex pattern 
-7.	SymSpell spelling correction
+
+## Cleaning Data
+1.	This is already a set of reasonably clean records
+2.	The data has only few outliers but no missing values
+3.	Most of the outliers have been eliminated 
+
+![image](https://github.com/mashukul/data_analytics/assets/71208684/7934c967-fcf0-4410-a127-53a4eee27ef6)
 
 
 ## Exploring, Visualizing and Feature engineering of Data
@@ -85,81 +44,39 @@ The training data is post-processed with the following filters:
 
 
 ## Exploring, Visualizing and Feature engineering of Data
-### Positive wordcloud
+![image](https://github.com/mashukul/data_analytics/assets/71208684/2d4d0c25-b0fd-4fe8-90c8-fcfa894d2681)
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig5.jpg)
+![image](https://github.com/mashukul/data_analytics/assets/71208684/4568c7aa-c4bb-405f-825b-53722835e1c3)
 
-### Negative wordcloud
+#### Encoding of Education based on Target:
+![image](https://github.com/mashukul/data_analytics/assets/71208684/100f9d07-4ca3-410c-bf3d-2e40db0eaf7e)
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig6.jpg)
-
-
-## GloVe: Global Vectors for Word Representation
-GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.
-For example, the analogy “king is to queen as man is to woman” should be encoded in the vector space by the vector equation 
-king − queen = man − woman. 
-
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig7.jpg)
-
-
-## Accuracy of different Models
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig8.jpg)
+![image](https://github.com/mashukul/data_analytics/assets/71208684/0553fc82-4337-4b34-8eca-99f5aaa78114)
+#### kbest feature selection:
+![image](https://github.com/mashukul/data_analytics/assets/71208684/e81781a8-9115-40e4-b010-37b8bcf7e430)
 
 
 ## Machine Learning model algorithms and accuracy
-### Results for Bidirectional LSTM
-### Confusion Matrix:
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig9.jpg)
-### ROC Curve:
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig10.jpg)
+![image](https://github.com/mashukul/data_analytics/assets/71208684/c354e7d0-c05f-431d-abfa-d28a86002615)
 
-## Deployment
-Please write a review to score your sentiment for next 72 hours 
-https://45862.gradio.app
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig11.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig12.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig13.jpg)
+#### Confusion Matrix
+![image](https://github.com/mashukul/data_analytics/assets/71208684/62a47b1d-31b8-4e1f-b9cf-b15e48169d23)
 
-
-
-
+#### ROC Curve
+![image](https://github.com/mashukul/data_analytics/assets/71208684/67dc28ba-200e-4fe0-9739-dbf1cca9bc00)
 
 ## Summary
-1.	We have built a model for classifying tweeter message to negative and positive without any manual intervention
-2.	Pre-processing in sentiment analysis text classification is different from document or theme classification.
-3.	Convolutional Neural network also give better result for text classification.
-4.	At first SVM and LR classifier are used 
-5.	Most advanced RNN for text classification (Bidirectional LSTM) along with pretrained word representation GloVe outperforms all conventional models 
-6.	Our final model has an accuracy of 83.04
+1.	Dataset obtained from the census income data
+2.	Data cleaned from missing values and outliers
+3.	Categories of the Categorical Features encoded based on target
+4.	Some feature eliminated based on Pearson’s correlation and Sklearn RFE method/kbest feature selection
+5.	At first modelling done with individual classifiers with parameter tuning
+6.	Later Ensamble methods were used with further data cross validation
+7.	Ensamble method stacking has the estimators KNN, RF, SVC and final estimator was LR classifier
+8.	Random forest and Stacking came up with highest accuracy
+
 
 ## Future scope
-
-1.	If we have a dataset which labelled with different categories like company, product, service model could be used to analyze sentiment for the respective fields.
-2.	Then the training the model will be easy and predictions will be more targeted
-3.	This model can also be used for pre-election public sentiments.
-## Reference
-1.	Dataset link: https://www.kaggle.com/datasets/kazanova/sentiment140
-2.	Citation: Go, A., Bhayani, R. and Huang, L., 2009. Twitter sentiment classification using distant supervision. CS224N Project Report, Stanford, 1(2009), p.12.
-3.	https://medium.com/@limavallantin/why-is-removing-stop-words-not-always-a-good-idea-c8d35bd77214
-
-## Appendix
-#### Reasons for not removing stop words like ‘Not’ and ‘but’  which are present in nltk stop words
-
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig14.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig15.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig16.jpg)
-
-
-
-
-
-
-#### Reasons for not removing stop words like ‘only’ which is present in nltk stop words
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig17.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig18.jpg)
-
-
-
-
-
-
+1.	If a dataset  with multi class salary field is available, this same model could be used for multi class classification.
+2.	Multi class classification will make the predictions more targeted
+3.	If a data field having Job category is available in the dataset, the salary prediction could be made in terms of job sectors
