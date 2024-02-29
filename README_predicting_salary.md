@@ -26,12 +26,11 @@ Can we develop  a model to automatically extract sentiment (positive or negative
 ### Conventional modelling techniques:
 1. Logistic Regression Classifier
 2. Support Vector Machine Classifier
-
-### Approaches:
-1. Count Vectors
-2. Word Level TF-IDF
-3. N-Gram Vectors
-4. Char Level Vectors
+    #### Approaches:
+    1. Count Vectors
+    2. Word Level TF-IDF
+    3. N-Gram Vectors
+    4. Char Level Vectors
 
 ### With GloVe Pretrained Word vectors:
 1. Convolutional neural network
@@ -144,7 +143,7 @@ https://45862.gradio.app
 3.	https://medium.com/@limavallantin/why-is-removing-stop-words-not-always-a-good-idea-c8d35bd77214
 
 ## Appendix
-### Reasons for not removing stop words: ‘Not’, ‘but’ are present in nltk stop words
+#### Reasons for not removing stop words like ‘Not’ and ‘but’  which are present in nltk stop words
 
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig14.jpg)
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig15.jpg)
@@ -155,7 +154,7 @@ https://45862.gradio.app
 
 
 
-### Reasons for not removing stop words: ‘only’ is present in nltk stop words
+#### Reasons for not removing stop words like ‘only’ which is present in nltk stop words
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig17.jpg)
 ![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig18.jpg)
 
