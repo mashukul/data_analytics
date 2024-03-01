@@ -27,3 +27,5 @@ Trainings and courses with the latest listed first
 ## Data Analytics Projects on Git
 * [Sentiment Analysis on Amazon review](https://github.com/mashukul/data_analytics/tree/main/Data%20Projects/Review%20Sentiment%20Analysis)
 * [Salary Prediction](https://github.com/mashukul/data_analytics/tree/main/Data%20Projects/Predicting%20Salary)
+* [EDA and Hypothesis testing](https://github.com/mashukul/data_analytics/tree/main/Data%20Projects/EDA%20and%20Hypothesis%20testing)
+
