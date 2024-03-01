@@ -15,11 +15,7 @@
 
 
 ## Pipeline
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary1.jpg)
-
-
-
-
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary1.jpg)
 
 ## Data Description
 
@@ -29,7 +25,7 @@
 4.	number of columns: 15
 
 ## Dataset Sample
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary2.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary2.jpg)
 
 
 ## Cleaning Data
@@ -40,28 +36,28 @@
 
 ## Exploring, Visualizing and Feature engineering of Data
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary3.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary3.jpg)
 
 
 ## Exploring, Visualizing and Feature engineering of Data
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary4.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary5.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary4.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary5.jpg)
 
 #### Encoding of Education based on Target:
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary6.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary6.jpg)
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary7.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary7.jpg)
 #### kbest feature selection:
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary8.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary8.jpg)
 
 
 ## Machine Learning model algorithms and accuracy
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary9.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary9.jpg)
 
 #### Confusion Matrix
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary10.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary10.jpg)
 #### ROC Curve
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/salary11.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/salary11.jpg)
 
 ## Summary
 1.	Dataset obtained from the census income data
