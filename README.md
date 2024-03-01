@@ -1,19 +1,28 @@
-<h1>Hi, I'm Mashuk! <br/><a href="https://github.com/joshmadakor1">A Python Developer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Data Science Professional</a></h1>
+## Hi, I'm Mashuk 
+[Python Developer, Data Science Professional](https://github.com/mashukul/data_analytics/tree/main)
 
-<h2>👨‍💻 Data analytics Projects:</h2>
+| Areas of expertise      | Key Skills |
+| :---        |    :----:   |
+| Programming languages      | Python, C, VBA       |
+| Exploratory Data Analysis   | Power BI, Matplotlib, Seaborn, Pandas       |
+| Databases  | SQL, Excel        |
+| Data Science   | Machine Learning, Natural Language Processing (NLP), Artificial Intelligence and Deep Learning       |
+| Machine-learning frameworks   | PyTorch, Sk-learn, Tensorflow        | 
 
-- <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
-- <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
-- <b>PowerShell</b>
-  - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
-  - [JWipe (Disk Wiping Utility)](https://github.com/joshmadakor1/Jwipe.PowerShell)
-  - [Active Directory Bulk User Creation](https://github.com/joshmadakor1/AD_PS)
-  - [FIM (File Integrity Monitor)](https://github.com/joshmadakor1/PowerShell-Integrity-FIM)
-- <b>C# (.NET Desktop Applications)</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
-  - [Ransomware Proof of Concept (Decrypter)](https://github.com/joshmadakor1/DecrypterPOC)
-  - [Keylogger with Email Capability](https://github.com/joshmadakor1/Key-Logger-With-Email)
-- <b>Python</b>
-  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
+## Education and Training:
+
+Trainings and courses with the latest listed first
+
+#### 1. UTS and Institute of Data Certified Professional Training on Data Science and AI
+#### 2. University of New South Wales, Australia (Completed Masters level courses):
+    -	Principles of Programming (Python)
+    -	Data structures and algorithms (C programming)
+    -	Database systems (postgre SQL)
+    -	Neutral Network and Deep learning
+    -	Foundation of Computer Science
+
+#### 3. University of Greenwich, United Kingdom
+    - Master of Science in Mechanical and Manufacturing Engineering
+
+## Data Analytics Projects on Git
+    - [Sentiment Analysis on Amazon review](
