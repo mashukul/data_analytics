@@ -39,7 +39,7 @@ Can we develop  a model to automatically extract sentiment (positive or negative
 
 ## Twitter sentiment Classification Flowchart
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig1.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig1.jpg)
 Fig1:Twitter sentiment Classification Flowchart
 
 
@@ -61,14 +61,14 @@ Fig1:Twitter sentiment Classification Flowchart
 
 ## Dataset Post-Processing
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig2.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig2.jpg)
 
 The training data is post-processed with the following filters: 
 - Emoticons listed in Table are stripped off 
 - Any tweet containing both positive and negative emoticons are removed 
 - Retweets are removed
 ## Dataset Sample
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig3.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig3.jpg)
 
 ## Text Data Preprocessing
 1.	Problems like sentiment analysis are much more sensitive to stop words removal  than document classification. So, none of the stop words should be removed
@@ -82,17 +82,17 @@ The training data is post-processed with the following filters:
 
 ## Exploring, Visualizing and Feature engineering of Data
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig4.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig4.jpg)
 
 
 ## Exploring, Visualizing and Feature engineering of Data
 ### Positive wordcloud
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig5.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig5.jpg)
 
 ### Negative wordcloud
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig6.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig6.jpg)
 
 
 ## GloVe: Global Vectors for Word Representation
@@ -100,26 +100,26 @@ GloVe is an unsupervised learning algorithm for obtaining vector representations
 For example, the analogy “king is to queen as man is to woman” should be encoded in the vector space by the vector equation 
 king − queen = man − woman. 
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig7.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig7.jpg)
 
 
 ## Accuracy of different Models
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig8.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig8.jpg)
 
 
 ## Machine Learning model algorithms and accuracy
 ### Results for Bidirectional LSTM
 ### Confusion Matrix:
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig9.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig9.jpg)
 ### ROC Curve:
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig10.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig10.jpg)
 
 ## Deployment
 Please write a review to score your sentiment for next 72 hours 
 https://45862.gradio.app
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig11.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig12.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig13.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig11.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig12.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig13.jpg)
 
 
 
@@ -144,20 +144,20 @@ https://45862.gradio.app
 3.	https://medium.com/@limavallantin/why-is-removing-stop-words-not-always-a-good-idea-c8d35bd77214
 
 ## Appendix
-### Reasons for not removing stop words: ‘Not’, ‘but’ are present in nltk stop words
+### Reasons for not removing stop words: ‘Not’, ‘but’ which are present in nltk stop words
 
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig14.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig15.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig16.jpg)
-
-
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig14.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig15.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig16.jpg)
 
 
 
 
-### Reasons for not removing stop words: ‘only’ is present in nltk stop words
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig17.jpg)
-![image](https://github.com/mashukul/data_analytics/blob/main/assets/fig18.jpg)
+
+
+### Reasons for not removing stop words: ‘only’ which is present in nltk stop words
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig17.jpg)
+![image](https://github.com/mashukul/data_analytics/blob/main/Data%20Projects/assets/fig18.jpg)
 
 
 
