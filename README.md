@@ -14,7 +14,7 @@
 Trainings and courses with the latest listed first
 
 #### 1. UTS and Institute of Data Certified Professional Training on Data Science and AI
-#### 2. University of New South Wales, Australia (Completed Masters level courses):
+#### 2. University of New South Wales, Australia (Completed following Masters level courses):
     -	Principles of Programming (Python)
     -	Data structures and algorithms (C programming)
     -	Database systems (postgre SQL)
@@ -25,4 +25,5 @@ Trainings and courses with the latest listed first
     - Master of Science in Mechanical and Manufacturing Engineering
 
 ## Data Analytics Projects on Git
-    - [Sentiment Analysis on Amazon review](
+* [Sentiment Analysis on Amazon review](https://github.com/mashukul/data_analytics/tree/main/Data%20Projects/Review%20Sentiment%20Analysis)
+* [Salary Prediction](https://github.com/mashukul/data_analytics/tree/main/Data%20Projects/Predicting%20Salary)
