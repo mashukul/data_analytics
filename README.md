@@ -15,7 +15,7 @@ Trainings and courses with the latest listed first
 
 #### 1. UTS and Institute of Data Certified Professional Training on Data Science and AI
 #### 2. University of New South Wales, Australia 
-##### Relevent completed Masters level courses:
+##### Relevant completed Masters level courses:
     -	Principles of Programming (Python)
     -	Data structures and algorithms (C)
     -	Database systems (postgre SQL)
